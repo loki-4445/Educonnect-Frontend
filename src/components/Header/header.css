@@ -1,0 +1,20 @@
+.nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  margin-top: 7px;
+
+}
+.nav-link a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-weight: 500  ;
+}
+button{
+  padding: 3px;
+  background:#3c009d;
+  color: #ffffff;
+  padding: 2px;
+  
+}
