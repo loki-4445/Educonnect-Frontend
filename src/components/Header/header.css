@@ -12,9 +12,9 @@
   font-weight: 500  ;
 }
 button{
-  padding: 3px;
-  background:#3c009d;
-  color: #ffffff;
+  padding: 1px;
+  background:#b5b5b6;
+  color: #000000;
   padding: 2px;
-  
+margin: 3px;  
 }

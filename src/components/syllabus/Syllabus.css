@@ -1,0 +1,149 @@
+/* Main container styling with a pastel background */
+.syllabus-container {
+    padding: 20px;
+    background: rgba(240, 248, 255, 0.5); /* Light pastel blue with transparency */
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Flexbox for positioning buttons and search on one line */
+.controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+/* Toggle button group aligned left */
+.view-toggle {
+    display: flex;
+    gap: 10px;
+}
+
+/* Buttons styling */
+.view-toggle button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background: #a2d2ff; /* Light blue */
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.view-toggle button.active {
+    background-color: #7ea6e0; /* Darker blue for active button */
+    color: #fff;
+}
+
+.view-toggle button:hover {
+    background-color: #5b8fcf; /* Even darker on hover */
+}
+
+/* Search form aligned right */
+.syllabus-search-form {
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.syllabus-search-icon-container {
+    padding: 12px;
+    background: #a2d2ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px 0 0 35px;
+}
+
+.syllabus-search-icon {
+    color: white;
+    font-size: 1.6em;
+}
+
+.syllabus-search-input {
+    padding: 12px 18px;
+    width: 300px;
+    border: none;
+    font-size: 1em;
+    background: transparent;
+    color: #333;
+    outline: none;
+}
+
+.syllabus-search-button {
+    padding: 12px 18px;
+    background: #7ea6e0;
+    color: #fff;
+    border: none;
+    border-radius: 0 35px 35px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.syllabus-search-button:hover {
+    background-color: #5b8fcf;
+}
+
+/* No results message */
+.syllabus-no-results {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Course list grid */
+.syllabus-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Course item styling with soft colors and hover effect */
+.syllabus-item {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    color: #333;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.syllabus-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.syllabus-item-title {
+    font-size: 1.2em;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .syllabus-container {
+        padding: 15px;
+    }
+
+    .syllabus-search-input {
+        width: 100%;
+    }
+}

@@ -26,19 +26,13 @@ const Header = () => {
         <Link to='/courses'>Courses</Link>
         </div>
       </div>
-      <div className="nav-list">
-        <div className="nav-link">
-          <Link to='/pages'>Pages</Link>
-        </div>
-      </div>
+        
       <div className="nav-list">
         <div className="nav-link" >
         <Link to='/blog'>Blog</Link>
         </div>
       </div>
-      <button onClick={onLogin}>
-        Login/SignUp
-      </button>
+     
     </div>
   </div>
    </header>

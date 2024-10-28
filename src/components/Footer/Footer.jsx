@@ -1,26 +1,26 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-
+import {Link} from 'react-router-dom'
 import "./footer.css";
 
 const footerQuickLinks = [
   {
     display: "Home",
-    url: "#",
+    url:'/',
   },
   {
     display: "About US",
-    url: "#",
+    url: '/about',
   },
 
   {
     display: "Courses",
-    url: "#",
+    url: '/courses',
   },
 
   {
     display: "Blog",
-    url: "#",
+    url: '/blog',
   },
 ];
 
@@ -105,7 +105,7 @@ const Footer = () => {
               {footerInfoLinks.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">
                   {" "}
-                  <a href={item.url}>{item.display}</a>
+                  <Link to={item.url}>{item.display}</Link>
                 </ListGroupItem>
               ))}
             </ListGroup>
@@ -114,9 +114,9 @@ const Footer = () => {
           <Col lg="3" md="6">
             <h6 className="fw-bold">Get in Touch</h6>
 
-            <p>Address: Sylhet, Bangladesh</p>
-            <p> Phone: +88 0123456789 </p>
-            <p>Email: example@gmail.com</p>
+            <p>Address: Kanuru,Vijayawada-520007</p>
+            <p> Phone: +91 9014457103 </p>
+            <p>Email: eduConnect@gmail.com</p>
           </Col>
         </Row>
       </Container>

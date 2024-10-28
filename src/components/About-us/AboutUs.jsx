@@ -20,9 +20,7 @@ const AboutUs = () => {
             <div className="about__content">
               <h2>About Us</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Excepturi cupiditate animi deserunt libero nesciunt corporis
-                explicabo nobis ex quo molestiae!
+                We the student of Prasad V Potluri Siddhartha Institute Of Technology desinged an Online Eductional Connect for the learns who, are ready begin their career in the particular course.
               </p>
 
               <div className="about__counter">

@@ -5,21 +5,22 @@ import "./features.css";
 const FeatureData = [
   {
     title: "Quick Learning",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
+    desc: "Access curated notes and video lessons designed to help you grasp concepts faster and more efficiently. Learn at your own pace with resources tailored for exam preparation.",
     icon: "ri-draft-line",
   },
-
+  
   {
-    title: "All Time Support",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
+    title: "All-Time Support",
+    desc: "Our dedicated support team is available around the clock to assist you with any questions or difficulties you may face while using the platform.",
     icon: "ri-discuss-line",
   },
-
+  
   {
     title: "Certification",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
+    desc: "Earn certificates upon course completion, showcasing your knowledge and skills to boost your academic and career prospects.",
     icon: "ri-contacts-book-line",
-  },
+  }
+  
 ];
 
 const Features = () => {
@@ -38,7 +39,7 @@ const Features = () => {
               </div>
             </Col>
           ))}
-        </Row>
+        </  Row>
       </Container>
     </section>
   );

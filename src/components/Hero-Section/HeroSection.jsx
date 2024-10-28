@@ -13,11 +13,8 @@ const HeroSection = () => {
               <h2 className="mb-4 hero__title">
                 Anytime Anywhere <br /> Learn on your <br /> Suitable Schedule
               </h2>
-              <p className="mb-5">
-                Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit.
-                Aut saepe voluptatum earum delectus <br /> deserunt id iste,
-                quas officiis et repellat!
-              </p>
+              <p className="mb-5 w-75">
+              Get easy access to comprehensive notes and curated video tutorials for your college courses. Whether you're preparing for exams or revisiting key concepts, our platform provides everything you need to succeed.</p>
             </div>
             <div className="search">
               <input type="text" placeholder="Search" />
