@@ -38,16 +38,20 @@ The application is live and accessible at:
 
 ## Screenshots
 
-1. **Homepage**  
+1. **Homepage**
+2. 
    ![Homepage](./educonnect-1.png)
 
-2. **About Selection**  
+3. **About Selection**
+4. 
    ![Content Selection](./educonnect-2.png)
 
-3. **Course Page**  
+5. **Course Page**
+6. 
    ![Study Materials Page](./educonnect-3.png)
 
-4. **Blog**  
+7. **Blog**
+8. 
    ![Detailed View](./educonnect-4.png)
 
 ## Future Enhancements
